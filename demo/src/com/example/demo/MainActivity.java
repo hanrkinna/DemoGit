@@ -15,8 +15,8 @@ public class MainActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		// setContentView(R.layout.main);
-		System.out.println("update");
+
+		System.out.println("冲突");
 	}
 
 	class MultiTouchView extends View {
@@ -29,9 +29,6 @@ public class MainActivity extends Activity {
 		public MultiTouchView(Context context) {
 			super(context);
 
-			System.out.println("测试冲突");
-
-			System.out.print("测试冲突");
 
 		}
 
