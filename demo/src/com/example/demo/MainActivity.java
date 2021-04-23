@@ -17,15 +17,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		// setContentView(R.layout.main);
 		View view = new MultiTouchView(this);
-		View view = new MultiTouchView(this);
-		View view = new MultiTouchView(this);
-		View view = new MultiTouchView(this);
-		View view = new MultiTouchView(this);
-		View view = new MultiTouchView(this);
-		
-		
+		System.out.println("111313");
 		setContentView(view);
-		
 	}
 
 	class MultiTouchView extends View {
