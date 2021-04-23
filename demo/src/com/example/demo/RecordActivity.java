@@ -28,7 +28,7 @@ public class RecordActivity extends Activity implements OnClickListener {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
-               
+               System.out.println("测试Merge");
         }
 
         @Override
