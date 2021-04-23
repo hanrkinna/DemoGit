@@ -18,12 +18,12 @@ public class MainActivity extends Activity {
 		// setContentView(R.layout.main);
 		View view = new MultiTouchView(this);
 
-		View view = new MultiTouchView(this);
+		View view1 = new MultiTouchView(this);
 		
-		View view = new MultiTouchView(this);
-		View view = new MultiTouchView(this);
-		View view = new MultiTouchView(this);
-		View view = new MultiTouchView(this);
+		View view2 = new MultiTouchView(this);
+		View view3 = new MultiTouchView(this);
+		View view4 = new MultiTouchView(this);
+		View view5 = new MultiTouchView(this);
 		System.out.println("111313");
 		
 		setContentView(view);
