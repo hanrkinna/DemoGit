@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 		System.out.println("11356");
 		System.out.print("测试冲突");
 		System.out.print("测试冲突");
-
+        System.out.println("测试命令上传");
 	}
 
 	class MultiTouchView extends View {
