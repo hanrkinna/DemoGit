@@ -16,9 +16,10 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		// setContentView(R.layout.main);
-		System.out.print("测试冲突");
-		System.out.print("测试冲突");
-		
+		View view = new MultiTouchView(this);
+
+		System.out.println("111313");
+		System.out.println("11356");
 		setContentView(view);
 		
 	}
@@ -32,12 +33,13 @@ public class MainActivity extends Activity {
 
 		public MultiTouchView(Context context) {
 			super(context);
-			System.out.print("测试冲突");
+System.out.println("测试冲突");
 		}
 
 		@Override
 		public boolean onTouchEvent(MotionEvent event) {
-			System.out.print("测试冲突");
+			// TODO Auto-generated method stub
+
 			float size = event.getSize();
 
 			int szi = (int) size;
