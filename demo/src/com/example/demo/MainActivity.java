@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		// setContentView(R.layout.main);
-
+		System.out.println("测试命令拉取");
 		View view = new MultiTouchView(this);
 		System.out.println("111313");
 		System.out.println("11356");
