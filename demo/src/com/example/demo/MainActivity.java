@@ -16,7 +16,6 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		System.out.println("冲突");
 	}
 
 	class MultiTouchView extends View {
