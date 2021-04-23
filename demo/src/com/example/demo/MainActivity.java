@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
+		private float x1;
 	}
 
 	class MultiTouchView extends View {
