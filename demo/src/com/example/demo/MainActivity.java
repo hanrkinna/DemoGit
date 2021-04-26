@@ -16,6 +16,9 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		  System.out.println(11);
+		  if(true){
+			  System.out.println("我是测试的！！！！");
+		  }
 	}
 
 	class MultiTouchView extends View {
