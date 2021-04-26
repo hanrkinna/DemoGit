@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
 
         @Override
         protected void onDraw(Canvas canvas) {
-            // TODO Auto-generated method stub
+           
             super.onDraw(canvas);
 
             float r = (float) Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2)
