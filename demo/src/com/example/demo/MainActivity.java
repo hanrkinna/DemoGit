@@ -18,8 +18,7 @@ public class MainActivity extends Activity {
 		  System.out.println(11);
 		  if(true){
 			  System.out.println("我是测试的！！！！");
-			  System.out.println("我是冲突！！！");
-
+			  System.out.println("你是你妹");
 		  }
 	}
 
