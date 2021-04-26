@@ -15,8 +15,12 @@ public class MainActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		System.out.println("11373");
-		System.out.println("11375");
+		  System.out.println(11);
+		  if(true){
+			  System.out.println("我是测试的！！！！");
+			  System.out.println("我是冲突！！！");
+
+		  }
 	}
 
 	class MultiTouchView extends View {
