@@ -16,14 +16,11 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		System.out.println("11373");
-         if(true){
+  
               System.out.println("我是测试的！！！！");
               System.out.println("我是冲突！！！");
               System.out.println("你是你妹");
-          }else{
-        	  System.out.println("你搞笑吧");
           
-          }
     }
 
     class MultiTouchView extends View {
