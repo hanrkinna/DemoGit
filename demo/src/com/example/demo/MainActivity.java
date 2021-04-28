@@ -15,11 +15,7 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		System.out.println("11373");
-  
-              System.out.println("我是测试的！！！！");
-              System.out.println("我是冲突！！！");
-              System.out.println("你是你妹");
+	
           
     }
 
