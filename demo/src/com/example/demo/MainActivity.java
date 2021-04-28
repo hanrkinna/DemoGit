@@ -16,6 +16,8 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 	
+              System.out.println("我是冲突！！！");
+              System.out.println("你是你妹");
           
     }
 
